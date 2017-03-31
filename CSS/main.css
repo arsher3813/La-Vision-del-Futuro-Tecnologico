@@ -1,1 +1,38 @@
+body{
+    background-color: #333;
+}
+header{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: "Merriweather", serif;
+}
+
+
+article{
+    color: white;
+    text-align: center;
+    font-family: "Merriweather", serif; 
+    font-size: 25px;
+    padding: 75px;
+} 
+
+button{
+    background-color: gray;
+    border: none;
+    font-size: 20px;
+    position: center;
+    margin-left: 600px;
+}
+
+@media(max-width: 500px){
+    h1 {font-size: 36px;}
+    article{
+        display: block;
+        padding: 5px;
+    }
+    button{
+        display: block;
+    }
+}
 
